@@ -1,10 +1,21 @@
 {
     "name":"Raheemat Portfolio",
     "short_name":"rae design",
+    "start_url":"./",
     "description":"Rae online profile",
     "theme_color":"#010136",
+    "background_color":"#13009B",
     "display":"standalone",
-    "icons":{
-
-    }
+    "icons": [
+        {
+          "src": "./images/logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+        "src": "./images/rae.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
 }

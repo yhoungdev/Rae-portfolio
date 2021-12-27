@@ -239,6 +239,16 @@ header .container .head {
 
 //for small screens
 @media (max-width: 768px) {
+    .icons {
+        ul {
+            li {
+                font-size: 0.6em;
+            }
+        }
+    }
+    .text {
+        font-size: 1em;
+    }
     .nav {
         ul{
             display: none !important;
