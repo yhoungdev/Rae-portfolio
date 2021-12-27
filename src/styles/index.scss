@@ -56,9 +56,17 @@ ul {
         li {
             margin-left: 1em;
         }
+
+        .bars {
+            margin-left: 2em;
+        }
     }
 }
 
+.flex {
+    display: inline-flex;
+    margin-right: 2em;
+}
 .close {
    right: 0;
    position: absolute;

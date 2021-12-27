@@ -56,6 +56,17 @@ ul a {
   margin-left: 1em;
 }
 
+.icons ul .bars {
+  margin-left: 2em;
+}
+
+.flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 2em;
+}
+
 .close {
   right: 0;
   position: absolute;
