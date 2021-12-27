@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My personal portfolio site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <link rel="manifest" href="./src/manifest.json">
+    <title>Raheemat Atata Portfolio</title>
+
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performant
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js');
+          });
+        }
+        </script>
+</head>
+<body>
+    <!--loader start-->
+    <div class="loader">
+
+        <div class="container">
+
+           <center>
+            <h2 class="loader-header ">Raheemate Atata</h2>
+            <p class="sub">Product Designer 🖌️ </p>
+            <br>
+            <i class="fa fab-spinner spin"></i>
+           </center>
+
+        </div>
+
+    </div>
+    <!--loader -->
+    
+    <!--header session-->
+
+    <header>
+        
+        <div class="container">
+
+           <div class="head">
+
+            <div class="logo">
+                <img src="./src/images/logo.png" alt="" width="40%">
+            </div>
+
+            <!--header -->
+
+            <div class="nav">
+                <ul>
+                    <li><i class="fab fa-behance"></i></li>
+                    <li><i class="fab fa-dribbble"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-medium"></i></li>
+                  
+                </ul>
+                <span>
+                    <small class="text mr-5">My Resume</small>
+                    <i class="fas fa-bars ml-4"></i>
+                </span>
+
+           </div>
+
+        </div>
+
+    </header>
+
+    <section class="sidebar">   
+
+        <h1 class="close">&times;</h1>
+
+        <div class="inner">
+            <ul>
+                <li>Home</li>
+                <li>Project</li>
+                <li>More</li>
+                <li><button class="btn-info">Contact me</button></li>
+            </ul>
+        </div>
+
+        <!--for the social media icons -->
+        <div class="icons">
+            <ul>
+                <li><i class="fab fa-behance"></i></li>
+                <li><i class="fab fa-dribbble"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-medium"></i></li>
+              
+            </ul>
+        </div>
+
+    </section>
+
+    <!--header end -->
+    <section class="hero">
+        <div class="container">
+            
+
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-sm-12 intro-about">
+                    <h6 class="text">Hello there 👋,</h6>
+                    <div class="intro">
+                        <h2>
+                            I'm <span>Raheemat (Rae) </span>,
+                            a Product Designer and a Design Educators
+                        </h2>
+                    </div>
+
+                    <!--About-->
+                    <div class="about">
+                        <p>
+                            I am based in Lagos, Nigeria. I am 
+                            passionate about solving problems width designs by building products
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                   <img src="./src/images/rae.png" alt="" class="rae_img">
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!--projects-->
+    <br>
+    <div class="projects">
+        <div class="container">
+            <h2 class="headers">Selected projects</h2>
+           
+            <!--first project-->
+            <div class="first">
+                <img src="./src/images/projects/kwisksell.png" alt="" width="100%" height="50%">
+            </div>
+
+
+            <!--First project ends -->
+            <!--project row 2-->
+            <div class="row mt-5 mb-5">
+                <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12 mt-2">
+                    <img src="./src/images/projects/fud.png" alt="" width="90%">
+                </div>
+
+                <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12 mt-2">
+                    <img src="./src/images/projects/fud.png" alt="" width="90%">
+
+                </div>
+            </div>
+
+            <!--3rd row-->
+            <div class="row">
+                <img src="./src/images/projects/gtbank.png" alt="" width="90%">
+            </div>
+        </div>
+    </div>
+    
+
+    <!--Project end -->
+    <!--footer -->
+    <section class="footer mt-5">
+        <center>
+            <footer>
+                <div class="container">
+                    <h2 class="headers">
+                        Want to work together?
+                    </h2>
+                    <p>Give me a shoot </p>
+                   
+                    <small class="text mb-4">Design and built by Raheemat Atata in 2021</small>
+                </div>
+            </footer>
+        </center>
+    </section>
+<script src="./src/script/index.js"></script>
+</body>
+</html>

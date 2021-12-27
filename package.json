@@ -1,0 +1,15 @@
+{
+  "name": "rae-portfolio",
+  "version": "1.0.0",
+  "description": "rae portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3"
+  }
+}
