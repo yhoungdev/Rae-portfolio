@@ -38,6 +38,12 @@ body {
 
 }
 
+ul {
+    a {
+        color: rgb(31, 30, 30);
+    }
+}
+
 .sub {
     font-family: Gilroy;
 }
@@ -90,10 +96,11 @@ body {
 .btn-info {
     background-color: var(--btn) !important;
     color: #fff !important;
-    font-size: 1em;
-    border: none;
-    padding: 1em 1em;
-    outline: none;
+    font-size: 0.7em;
+    border: none !important;
+    padding:1em ;
+    
+    outline: none !important;
 }
 .headers {
     font-family: var(--font) ;
@@ -126,7 +133,7 @@ body {
             list-style-type: none;
 
             li{
-                margin-top: 4em;
+                margin-top: 2em;
                 cursor: pointer;
             }
         }

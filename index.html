@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
     <link rel="manifest" href="./src/manifest.json">
+    
+    <link rel="stylesheet" href="./node_modules/aos/src/sass/aos.scss">
+    <script src="./node_modules/aos/src/js/aos.js"></script>
     <title>Raheemat Atata Portfolio</title>
 
     <script>
@@ -17,7 +20,7 @@
         if ('serviceWorker' in navigator) {
           // Use the window load event to keep the page load performant
           window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./sw.js');
+            navigator.serviceWorker.register('./src/sw.js');
           });
         }
         </script>
@@ -58,9 +61,17 @@
                 <ul>
                     <li><i class="fab fa-behance"></i></li>
                     <li><i class="fab fa-dribbble"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/raheemat-atata/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
                     <li><i class="fab fa-youtube"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
                     <li><i class="fab fa-instagram"></i></li>
                     <li><i class="fab fa-medium"></i></li>
                   
@@ -111,7 +122,7 @@
             
 
             <div class="row">
-                <div class="col-md-8 col-lg-8 col-sm-12 intro-about">
+                <div class="col-md-8 col-lg-8 col-sm-12 intro-about" data-aos="fade-up">
                     <h6 class="text">Hello there 👋,</h6>
                     <div class="intro">
                         <h2>
@@ -188,6 +199,10 @@
             </footer>
         </center>
     </section>
+   
 <script src="./src/script/index.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
