@@ -47,6 +47,13 @@ ul {
 .sub {
     font-family: Gilroy;
 }
+
+//flex
+.flex {
+    .text {
+        margin-right:2em;
+    }
+}
 //icons
 .icons {
     ul {
@@ -57,8 +64,11 @@ ul {
             margin-left: 1em;
         }
 
-        .bars {
+        .fa-bars {
             margin-left: 2em;
+            font-size: 2em !important;
+            
+
         }
     }
 }
@@ -66,6 +76,11 @@ ul {
 .flex {
     display: inline-flex;
     margin-right: 2em;
+
+    .fa-bars{
+        font-size: 1.5em;
+        color: var(--dashed);
+    }
 }
 .close {
    right: 0;
@@ -298,6 +313,16 @@ header .container .head {
 
     .projects {
         margin-top: 15em;
+    }
+
+    .flex {
+
+       
+        width: 10em;
+        margin-right: 0;
+        .text {
+            
+        }
     }
 }
 

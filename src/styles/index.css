@@ -45,6 +45,10 @@ ul a {
   font-family: Gilroy;
 }
 
+.flex .text {
+  margin-right: 2em;
+}
+
 .icons ul {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -56,8 +60,9 @@ ul a {
   margin-left: 1em;
 }
 
-.icons ul .bars {
+.icons ul .fa-bars {
   margin-left: 2em;
+  font-size: 2em !important;
 }
 
 .flex {
@@ -65,6 +70,11 @@ ul a {
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-right: 2em;
+}
+
+.flex .fa-bars {
+  font-size: 1.5em;
+  color: var(--dashed);
 }
 
 .close {
@@ -268,6 +278,10 @@ header .container .head ul li {
   }
   .projects {
     margin-top: 15em;
+  }
+  .flex {
+    width: 10em;
+    margin-right: 0;
   }
 }
 
