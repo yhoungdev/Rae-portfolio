@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 body {
     overflow-x: hidden;
 }
@@ -46,6 +49,12 @@ ul {
 
 .sub {
     font-family: Gilroy;
+}
+
+//spinner
+.fa-spinner  {
+    color: var(--pink);
+    font-size: 1.5em;
 }
 
 //flex

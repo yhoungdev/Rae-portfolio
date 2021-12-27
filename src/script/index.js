@@ -2,7 +2,7 @@ window.onload= e => {
    setInterval(()=>{
     let loader = document.querySelector('.loader')
     loader.style.display='none'
-   }, 1500)
+   }, 2500)
 
 
 
