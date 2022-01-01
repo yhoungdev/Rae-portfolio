@@ -41,6 +41,10 @@ body {
 
 }
 
+.logo h4 {
+    color: var(--btn);
+}
+
 ul {
     a {
         color: rgb(31, 30, 30);
@@ -110,6 +114,7 @@ ul {
     right: 0;
     left: 0;
     justify-content: center;
+    display: none;
 
      .loader-header {
          color: #fff !important;

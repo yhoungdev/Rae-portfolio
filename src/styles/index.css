@@ -41,6 +41,10 @@ body {
   font-family: Gilroy;
 }
 
+.logo h4 {
+  color: var(--btn);
+}
+
 ul a {
   color: #1f1e1e;
 }
@@ -111,6 +115,7 @@ ul a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: none;
 }
 
 .loader .loader-header {
